@@ -1,6 +1,4 @@
-// Script by Xeon 
-// 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭
-// ©Xeon Bot Incorporated
+//ZBOT
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -141,7 +139,7 @@ autoketik = false;
 prefixStatus = false;
 targetpc = "94771323434"; 
 owner = "94771323434"; 
-fakeyoi = "IMASH"; 
+fakeyoi = "IMASH NIDUSHA"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -379,7 +377,7 @@ const checkRegisteredUser = (sender) => {
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `Hi ${pushname} ${ucapanWaktu} \n\nBefore Using the Bot Verify First `
-       const daftar2 = '```Click the button below to verify bro or type 8473\n S```'
+       const daftar2 = '```Click the button below to verify bro or type 8473```\n\nපහත ඇති verify යන බටනය ක්ලික් කර ඔබගේ අංකය වෙරිෆයි කර ගන්න.නැතිනම් බොට් ඔබේ විදාන පිලි නොපදී\n\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -420,8 +418,8 @@ const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
 cmhit.push(command)
     //MESS
     mess = {
-      wait: "𝙒𝙖𝙞𝙩 𝘼 𝙈𝙞𝙣𝙪𝙩𝙚 ᴢ ʙɪᴛ ɪꜱ ꜰɪɴᴅ シ︎",
-      success: "Success シ︎",
+      wait: " ```𝙒𝘼𝙄𝙏 𝘼 𝙈𝙄𝙉𝙐𝙏𝙀 𝙕 𝘽𝙊𝙏 𝙄𝙎 𝙁𝙄𝙉𝘿```\n\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ",
+      success: "```𝙎𝙐𝘾𝘾𝙀𝙎𝙎``` シ︎",
       wrongFormat: "Wrong format, try again in the menu",
       error: {
         stick: "not that sticker :v",
@@ -429,7 +427,7 @@ cmhit.push(command)
         Iv: "The link is error :v",
       },
       only: {
-        group: "Only on chat group",
+        group: "```𝙊𝙉𝙇𝙔 𝘾𝘼𝙃𝙏 𝙊𝙉 𝙂𝙍𝙊𝙐𝙋```",
       },
     };
 
@@ -481,7 +479,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "ZBOT",
+          orderTitle: "𝘡 𝘉𝘖𝘛",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -793,10 +791,10 @@ if (!itsMe && !isOwner)return
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
             title: "FakeReply Bang", //Kasih namalu
-            description: "ZBOT",
+            description: "𝘡 𝘉𝘖𝘛",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "BOT ",
+            retailerId: "𝘡 𝘉𝘖𝘛",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -1228,7 +1226,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
     if (isGroup && isAntilink && !mek.key.fromMe) {
       if (budy.includes("://chat.whatsapp.com/")) {
         if (isGroupAdmins) return reply("only admin");
-        reply("ANTILINK DETECTED!! SORRY YOU WILL BE KICKED ;V/nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ");
+        reply("ANTILINK DETECTED!! SORRY YOU WILL BE KICKED ;V\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ");
         xeon.groupRemove(from, [sender]);
       }
     }
@@ -1313,7 +1311,7 @@ await xeon.setStatus(`Bot Mode On Since ${uptime}`).catch((_) => _);
 switch (command) {
 case 'verify':
               
-if (isRegistered) return reply('Your account is verified')
+if (isRegistered) return reply('𝙔𝙊𝙐𝙍 𝘼𝘾𝘾𝙊𝙐𝙉𝙏 𝙄𝙎 𝙑𝙀𝙍𝙄𝙁𝙄𝙀𝘿\n\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ')
 const serialUser = createSerial(18)
 	         try {
 								ppimg = await xeon.getProfilePicture(`${sender.split('@')[0]}@c.us`)
@@ -1360,7 +1358,7 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-       txtt =`Hi ${pushname} 👋\n\nIF YOU ARE USING MOD WHATSAPP & BUTTONS DOESNT SHOW, TYPE #allmenu\nඔබ වට්සැප් මොඩ් භාවිත කරන්නේ නම් බට්න් මෙනුව නොපිනේ\nමොඩ් වට්සැප් භාවිත කරන්නේ නම් මෙනුව සඳහා #allmenu විදානය භාවිත කරන්න`
+       txtt =`Hi ${pushname} 👋\n\nIF YOU ARE USING MOD WHATSAPP & BUTTONS DOESNT SHOW, TYPE #allmenu\n\nඔබ වට්සැප් මොඩ් භාවිත කරන්නේ නම් බට්න් මෙනුව නොපිනේ\nමොඩ් වට්සැප් භාවිත කරන්නේ නම් මෙනුව සඳහා #allmenu විදානය භාවිත කරන්න`
 
                buttons = [{buttonId:`allmenu`, 
                buttonText:{displayText: 'MENU🐼'},type:1},
@@ -1372,14 +1370,14 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: `シ︎ 𝙕 𝘽𝙊𝙏 𝙎𝙩𝙖𝙩𝙪𝙨 シ︎
+               footerText: `𝙕 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙐𝙎𝙀𝙍 𝘽𝙊𝙏
                
- 𝐆𝐫𝐨𝐮𝐩 𝐂𝐡𝐚𝐭𝐬 : ${groups.length} 
- 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭𝐬 : ${privat.length}
- 𝐓𝐨𝐭𝐚𝐥 𝐂𝐡𝐚𝐭𝐬 : ${totalChat.length}
- 𝐒𝐩𝐞𝐞𝐝 : ${latensie.toFixed(4)} _Second_
- 𝐀𝐜𝐭𝐢𝐯𝐞 : ${runtime(process.uptime())}
- 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${os.platform()}`, imageMessage: imageMsg,
+ 𝙂𝙍𝙊𝙐𝙋𝙎    : ${groups.length} 
+ 𝙋 𝘾𝙃𝘼𝙏𝙎    : ${privat.length}
+ 𝘼𝙇𝙇 𝘾𝘼𝙃𝙏𝙎  : ${totalChat.length}
+ 𝙎𝙋𝙀𝙀𝘿      : ${latensie.toFixed(4)} _Second_
+ 𝘼𝘾𝙏𝙄𝙑𝙀      : ${runtime(process.uptime())}
+ 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦     : ${os.platform()}`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1408,7 +1406,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
        stst = await xeon.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menu = `
-🐾 Hi @${sender.split("@")[0]}
+🐾 𝙃𝙀𝙇𝙇𝙊𝙒♥ @${sender.split("@")[0]}
 
 🦠 𝐆𝐫𝐨𝐮𝐩 𝐂𝐡𝐚𝐭𝐬 : ${groups.length} 
 🦠 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭𝐬 : ${privat.length}
@@ -1533,7 +1531,7 @@ ${readmore}
 
 
  ⬣ 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
-> ⬡ ${prefix}play query
+> ⬡ ${prefix}song query
 > ⬡ ${prefix}play2 query
 > ⬡ ${prefix}playv2 link
 > ⬡ ${prefix}playm2 link
@@ -1544,8 +1542,8 @@ ${readmore}
 > ⬡ ${prefix}facebook link
 > ⬡ ${prefix}tiktok link
 > ⬡ ${prefix}tiktokmp3 link
-> ⬡ ${prefix}ytmp3 link
-> ⬡ ${prefix}ytmp4 link
+> ⬡ ${prefix}song link
+> ⬡ ${prefix}video link
  
 
  ⬣ 𝙏𝘼𝙂 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
@@ -1612,10 +1610,7 @@ ${readmore}
 > ⬡ ${prefix}neko
 > ⬡ ${prefix}trapnime
 
-𝗡𝗼𝘁𝗲 : Horny = Bonks💥
-Just Learn to Make Bots
- 
-𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
+𝙏𝙃𝙄𝙎 𝙄𝙎 𝙕𝙀𝘿 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙐𝙎𝙀𝙍 𝘽𝙊𝙏
 `
 sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
@@ -1831,7 +1826,7 @@ if (!mek.key.fromMe) return;
 if (!q) return reply('Enter the Group ID')
 sendBug(args[0])
 break
-case 'okvirtex':
+case 'vspam':
 if (!isOwner && !mek.key.fromMe) return reply('Only owner can use this feature')
 katalog(`${ngazap(prefix)}`)
 katalog(`${emoji2(prefix)}`)
@@ -1889,7 +1884,7 @@ xeon.toggleDisappearingMessages(from, 0)
 xeon.sendMessage(from, listMsg, MessageType.listMessage, {quoted:ftrol})
 xeon.toggleDisappearingMessages(from, 0)
 break
-case 'bugcatalog':
+case 'bugca':
 if (!isOwner && !mek.key.fromMe) return reply('Only owner can use this feature')
 xeon.toggleDisappearingMessages(from, 0)
  babi = (teks) => {
@@ -2008,7 +2003,7 @@ case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: 'ZBOT',
+ footerText: '𝘡 𝘉𝘖𝘛',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
@@ -2070,11 +2065,11 @@ xeon.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
 break
 case 'downloadmenu':
 menu = `シ︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
-㋛${prefix}𝙮𝙩𝙢𝙥4 𝙡𝙞𝙣𝙠
+㋛${prefix}𝘴𝘰𝘯𝘨 𝙡𝙞𝙣𝙠
 
-㋛${prefix}𝙮𝙩𝙢𝙥3 𝙡𝙞𝙣𝙠
+㋛${prefix}𝘷𝘪𝘥𝘦𝘰 𝙡𝙞𝙣𝙠
 
-㋛${prefix}𝙥𝙡𝙖𝙮 𝙦𝙪𝙚𝙧𝙮
+㋛${prefix}𝘴𝘰𝘯𝘨 𝙦𝙪𝙚𝙧𝙮
 
 ㋛${prefix}𝙞𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢 <𝙪𝙧𝙡>
 
@@ -2828,9 +2823,9 @@ break
                   return sendMediaURL(
                     from,
                     thumb,
-                    `*Z BOT PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n*Mp3 එක දිග වැඩී ඒ නිසා එන එකක් නැහැ\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ*`
+                    `*Z BOT PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n*Mp3 එක දිග වැඩී ඒ නිසා එන එකක් නැහැ*\n\n*ᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ*`
                   );
-                const captions = `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n*සිංදුව ඩවුන්ලෝඩ් වෙන ගමන් ටික වෙලාවක් දෙන්න\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ*`;
+                const captions = `*Z BOT DOWNLOADING MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n*සිංදුව ඩවුන්ලෝඩ් වෙන ගමන් ටික වෙලාවක් දෙන්න*\n\n*ᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ*`;
                 sendMediaURL(from, thumb, captions);
                 await sendMediaURL(from, dl_link).catch(() => reply("error"));
               });
@@ -2853,7 +2848,7 @@ case 'playm2': case 'ytmp3':
 											axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 											.then(async (a) => {
 												if (Number(filesize) >= 100000) return sendMediaURL(from, thumb, `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For the duration of more than the limit is presented in the form of a link_`)
-												const captions = `🎧 *PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Please wait for the media file to be sent it may take a few minutes_`
+												const captions = ` *Z BOT DOWNLOADING  MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Please wait for the media file to be sent it may take a few minutes_`
 												await sendMediaURL(from, thumb, captions)
 												sendMediaURL(from, dl_link).catch(() => reply('error'))
 												}) 
@@ -2881,7 +2876,7 @@ case 'playm2': case 'ytmp3':
                   return sendMediaURL(
                     from,
                     thumb,
-                    `*YTMP 4!*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For the duration of more than the limit is presented in the link_\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ`
+                    `*YTMP 4!*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For the duration of more than the limit is presented in the link_\n*ᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ*`
                   );
                 const captionsYtmp4 = `*Data Successfully Obtained!*\n\n*Title* : ${title}\n*Ext* : MP4\n*Size* : ${filesizeF}\n\n_Please wait for the media file to be sent it may take a few minutes_`;
                 sendMediaURL(from, thumb, captionsYtmp4);
@@ -3365,7 +3360,7 @@ break
           ]);
         }
         break;
-      case "antivirtex":
+      case "antivirus":
         if (!isGroup) return reply("Group only");
         if (!isGroupAdmins && !mek.key.fromMe) return reply("admin only");
         if (args[0] == "on") {
@@ -3399,7 +3394,7 @@ break
           ]);
         }
         break;
-      case "kickarea":
+      case "kickyou":
         if (!isGroup) return reply("Group only");
         if (!isGroupAdmins && !mek.key.fromMe) return reply("admin only");
         if (args[0] == "on") {
@@ -5869,7 +5864,7 @@ Source : ${anu.result.source}
                     thumb,
                     `*Z BOT PLAY VIDEO*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_For the duration of more than the limit is presented in the link_`
                   );
-                const captions = `*PLAY VIDEO*\n\n*Title* : ${title}\n*Ext* : MP4\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Please wait for the media file to be sent it may take a few minutes_\n\n ᴘᴏᴡᴇʀᴅ ʙʏ ᴢʙᴏᴛ`;
+                const captions = `*Z BOT DOWNLOADING VIDEO*\n\n*Title* : ${title}\n*Ext* : MP4\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Please wait for the media file to be sent it may take a few minutes_\n\n *ᴘᴏᴡᴇʀᴅ ʙʏ ᴢʙᴏᴛ`;
                 sendMediaURL(from, thumb, captions);
                 await sendMediaURL(from, dl_link).catch(() => reply("error"));
               });
@@ -5965,7 +5960,7 @@ Source : ${anu.result.source}
           );
         }
         break;
-      case "toimg":
+      case "photo":
         if (!isQuotedSticker) return reply("𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰??𝗲𝗿 !");
         reply(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
@@ -5996,7 +5991,7 @@ Source : ${anu.result.source}
         aramat = aramas.all;
         var tbuff = await getBuffer(aramat[0].image);
         var ytresult = "";
-        ytresult += "「 *YOUTUBE SEARCH* 」";
+        ytresult += "「 *Z BOT YOUTUBE SEARCH* 」";
         ytresult += "\n________________________\n\n";
         aramas.all.map((video) => {
           ytresult += "❏ Title: " + video.title + "\n";
@@ -6271,7 +6266,7 @@ Source : ${anu.result.source}
           );
         }
         break;
-      case "tomp4":
+      case "mp4":
         if (
           ((isMedia && !mek.message.videoMessage) || isQuotedSticker) &&
           args.length == 0
@@ -6464,7 +6459,7 @@ xeon.sendMessage(from, stdout, text, term)
     if (isGroup && budy != undefined) {
     } else {
       console.log(
-        color("[Doge Bot]", "red"),
+        color("ZED", "red"),
         "ZBOT",
         color(sender.split("@")[0])
       );
