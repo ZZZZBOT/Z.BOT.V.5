@@ -64,7 +64,7 @@ const sleep = async (ms) => {
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [2, 2143, 3];
-  client.browserDescription = ["Subscribe Xeon", "Chrome", "3.0"];
+  client.browserDescription = ["PW BY ZBOT", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
@@ -82,8 +82,8 @@ const starts = async (client = new WAConnection()) => {
     start("2", "Connecting...");
   });
   client.on("open", () => {
-    success("2", "Successfully connected to wa, Subscribe Xeon");
-console.log(color(figlet.textSync(`${spc1}            Doge Bot`, {
+    success("2", "Successfully connected to wa, PW BY ZBOT");
+console.log(color(figlet.textSync(`${spc1}            zed bot`, {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
@@ -221,8 +221,8 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
                 time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
                 memeg = mdata.participants.length
-                out = `*Gᴏᴏᴅ Bʏᴇ ʙʀᴏ* 👋\n@${num.split('@')[0]}\n*OH HE/SHE IS GOING*\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ`
-                goodbyeBut = [{buttonId:`h`,buttonText:{displayText:'ɢᴇᴛ ᴏᴜᴛ ʟᴏᴏꜱᴇʀ'},type:1}, {buttonId:`sc`,buttonText:{displayText:'ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ'}, type:1}]
+                out = `*Gᴏᴏᴅ Bʏᴇ ʙʀᴏ* 🥲\n@${num.split('@')[0]}\n*OH HE/SHE IS GOING*\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ`
+                goodbyeBut = [{buttonId:`h`,buttonText:{displayText:'BYE BYE👿'},type:1}, {buttonId:`sc`,buttonText:{displayText:'ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ'}, type:1}]
                 goodbyeButt = { contentText: ` `, footerText: `${out}`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
                 client.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
             }
@@ -321,7 +321,7 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
         let buffer = await getBuffer(
           `https://api-yogipw.herokuapp.com/api/promote?name=${anu_user}&msg=promoted%20as%20admin&mem=${groupAdmins.length}&picurl=${ppimg}&bgurl=https://cdn.discordapp.com/attachments/819995259261288475/835055559941292032/style.jpg`
         );
-        teks = `${anu_user} ʜᴀꜱ ʙᴇᴇɴ ᴘʀᴏᴍᴏᴛᴇᴅ ᴀꜱ ᴀᴅᴍɪɴ/n/nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ`;
+        teks = `${anu_user} ʜᴀꜱ ʙᴇᴇɴ ᴘʀᴏᴍᴏᴛᴇᴅ ᴀꜱ ᴀᴅᴍɪɴ\n\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ`;
         client.sendMessage(mdata.id, buffer, MessageType.image, {
           caption: teks,
         });
