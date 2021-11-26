@@ -139,7 +139,7 @@ autoketik = false;
 prefixStatus = false;
 targetpc = "94771323434"; 
 owner = "94771323434"; 
-fakeyoi = "IMASH NIDUSHA"; 
+fakeyoi = "͐ɪ͐ᴍͥᴀͭꜱ̾ʜḻ ɴᷟɪͤᴅᴜᷦꜱʜᴀ᪳͐͛"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -377,7 +377,7 @@ const checkRegisteredUser = (sender) => {
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `Hi ${pushname} ${ucapanWaktu} \n\nBefore Using the Bot Verify First `
-       const daftar2 = '```Click the button below to verify bro or type 8473```\n\nපහත ඇති verify යන බටනය ක්ලික් කර ඔබගේ අංකය වෙරිෆයි කර ගන්න.නැතිනම් බොට් ඔබේ විදාන පිලි නොපදී\n\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ'
+       const daftar2 = '```Click the button below to verify bro or type```\n\nපහත ඇති verify යන බටනය ක්ලික් කර ඔබගේ අංකය වෙරිෆයි කර ගන්න.නැතිනම් බොට් ඔබේ විදාන පිලි නොපදී\n\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -479,7 +479,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "𝘡 𝘉𝘖𝘛",
+          orderTitle: "𝑍 𝐵𝑂𝑇 𝑉➅",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -598,7 +598,7 @@ const fstick = {
       }
     },
     "messageTimestamp": "1614070775",
-    "status": "PENDING"
+    "status": "PENDING\n𝑍 𝐵𝑂𝑇 𝑉➅"
   }
 // STICKER
 
@@ -791,10 +791,10 @@ if (!itsMe && !isOwner)return
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
             title: "FakeReply Bang", //Kasih namalu
-            description: "𝘡 𝘉𝘖𝘛",
+            description: "𝑍 𝐵𝑂𝑇 𝑉➅",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "𝘡 𝘉𝘖𝘛",
+            retailerId: "𝑍 𝐵𝑂𝑇 𝑉➅",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -1226,7 +1226,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
     if (isGroup && isAntilink && !mek.key.fromMe) {
       if (budy.includes("://chat.whatsapp.com/")) {
         if (isGroupAdmins) return reply("only admin");
-        reply("ANTILINK DETECTED!! SORRY YOU WILL BE KICKED ;V\nᴘᴏᴡᴇʀᴅ ʙʏ ᴢ ʙᴏᴛ");
+        reply("ANTILINK DETECTED!! SORRY YOU WILL BE KICKED ;V\n𝑍 𝐵𝑂𝑇 𝑉➅");
         xeon.groupRemove(from, [sender]);
       }
     }
@@ -1334,7 +1334,7 @@ const serialUser = createSerial(18)
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
-              buttonsMessage = {footerText:'ZED BOT', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝑍 𝐵𝑂𝑇 𝑉➅', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkontak})
               xeon.relayWAMessage(prep)
@@ -1370,7 +1370,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: `𝙕 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙐𝙎𝙀𝙍 𝘽𝙊𝙏
+               footerText: `𝑍 𝐵𝑂𝑇 𝑉➅ 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙐𝙎𝙀𝙍 𝘽𝙊𝙏
                
  𝙂𝙍𝙊𝙐𝙋𝙎    : ${groups.length} 
  𝙋 𝘾𝙃𝘼𝙏𝙎    : ${privat.length}
@@ -1414,7 +1414,13 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 🦠 𝐒𝐩𝐞𝐞𝐝 : ${latensie.toFixed(4)} _Second_
 🦠 𝐀𝐜𝐭𝐢𝐯𝐞 : ${runtime(process.uptime())}
 🦠 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${os.platform()}
+
+CLICK THIS READMORE BUTTON
+▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
 ${readmore}
+ 
+*𝑍 𝐵𝑂𝑇 𝑉➅*
  
  ⬣ 𝘽𝙊𝙏 𝙊𝙒𝙉𝙀𝙍 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎
 > ⬡ ${prefix}off
@@ -1610,10 +1616,10 @@ ${readmore}
 > ⬡ ${prefix}neko
 > ⬡ ${prefix}trapnime
 
-𝙏𝙃𝙄𝙎 𝙄𝙎 𝙕𝙀𝘿 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙐𝙎𝙀𝙍 𝘽𝙊𝙏
+*𝙏𝙃𝙄𝙎 𝙄𝙎 𝑍 𝐵𝑂𝑇 𝑉➅ 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙐𝙎𝙀𝙍 𝘽𝙊𝙏*
 `
-sendButLocation(from, `${menu}`,`𝘾𝙍𝙀𝘼𝙏𝙊𝙍 𝙄𝙎 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
-
+sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
+		
 break
 case 'credit':
    dtod = '94771323434'
@@ -1624,9 +1630,9 @@ case 'credit':
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑠 𝐵𝑦 ] :
    
- ♥ : wa.me/${dtod1.split("@")[0]}
- ♥ : wa.me/${dtod.split('@')[0]}
- ♥ : wa.me/${dtod2.split('@')[0]}
+𒍨 : wa.me/${dtod1.split("@")[0]}
+𒍨 : wa.me/${dtod.split('@')[0]}
+𒍨 : wa.me/${dtod2.split('@')[0]}
  `
      credit = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "hehe", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
             xeon.relayWAMessage(credit)
@@ -1705,7 +1711,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                 dapuhy = await getBuffer(`https://dapuhy-api.herokuapp.com/api/randomimage/quotesyt?apikey=${dapapi}`)
                 xeon.sendMessage(from, dapuhy, image, {quoted: mek})        
                 break    
-case 'auu': // by xeon
+case 'bot': // by xeon
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
        reply('No Sis')
         sendButMessage(from, `Hi ${pushname} 🐶`, `What do you want to answer??`, [
@@ -1766,17 +1772,17 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('*click on the link below*\nwa.me/94771323434')
+  reply('*click on the link below*\nwa.me/94771323434\n\n͐ɪ͐ᴍͥᴀͭꜱ̾ʜḻ ɴᷟɪͤᴅᴜᷦꜱʜᴀ᪳͐͛')
 break
    
 case 'owner':
            case 'creator':
              
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-               sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
+               sendKontak(from, `${owner}`, `${fakeyoi}`, 'හී හී පොඩ්ඩක් වැඩ ඉතිම්!!')
                await sleep(1000)
                haibg =`Hi ${pushname}\n*IMASH NIDUSHA* is my owner, What do you want to know about??`
-               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'PM ON WHATSAPP'},type:1}]
+               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'WHATSAPP'},type:1}]
                buttonsMessage = { contentText: `${haibg}`, footerText: `Created By 𝙄𝙈𝘼𝙎𝙃 `, buttons: buttons, headerType: 1 }
                prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
                xeon.relayWAMessage(prep)
@@ -1989,7 +1995,7 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = xeon.contacts[i] != undefined ? xeon.contacts[i].vname || xeon.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'IMASH',
+"displayName": '͐ɪ͐ᴍͥᴀͭꜱ̾ʜḻ ɴᷟɪͤᴅᴜᷦꜱʜᴀ᪳͐͛',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xeon.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -2064,71 +2070,83 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 xeon.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:ftrol})
 break
 case 'downloadmenu':
-menu = `シ︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
-㋛${prefix}𝘴𝘰𝘯𝘨 𝙡𝙞𝙣𝙠
-
-㋛${prefix}𝘷𝘪𝘥𝘦𝘰 𝙡𝙞𝙣𝙠
-
-㋛${prefix}𝘴𝘰𝘯𝘨 𝙦𝙪𝙚𝙧𝙮
-
-㋛${prefix}𝙞𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢 <𝙪𝙧𝙡>
-
-㋛${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
+menu = `𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶
+┏━━━━━━━━━━━━━━━━━━━━
+┃      𝑍 𝐵𝑂𝑇 𝑉➅
+┃
+┃𒈔${prefix}𝘴𝘰𝘯𝘨 𝙡𝙞𝙣𝙠       
+┃                       
+┃𒈔${prefix}𝘷𝘪𝘥𝘦𝘰 𝙡𝙞𝙣𝙠       
+┃
+┃𒈔${prefix}𝘴𝘰𝘯𝘨 𝙦𝙪𝙚𝙧𝙮
+┃
+┃𒈔${prefix}𝙞𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢 <𝙪𝙧𝙡>
+┃
+┃𒈔${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
+┃
+┃𒍨ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɪᴍᴀꜱʜ ɴɪᴅᴜꜱʜᴀ
+┗━━━━━━━━━━━━━━━━━━━━
 `
 sendButMessage(from, menu, `ZBOT`, [
           {
             buttonId: `command`,
             buttonText: {
-              displayText: `𝘽𝙖𝙘𝙠 𝙈𝙚𝙣𝙪 シ︎`,
+              displayText: `𝘽𝙖𝙘𝙠`,
             },
             type: 1,
           },]);
 break
 case 'groupmenu':
-menu = `シ𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎シ︎
-㋛${prefix}grup [3 Button]
-
-㋛${prefix}promote <reply chat member>
-
-㋛${prefix}demote <reply chat member>
-
-㋛${prefix}setdesc
-
-㋛${prefix}nsfw 1/0
-
-㋛${prefix}setname
-
-㋛${prefix}kick <reply/tag member>
-
-㋛${prefix}add <reply/tag member>
-
-㋛${prefix}getbio <reply chat member>
-
-㋛${prefix}getname <reply chat member>
-
-㋛${prefix}reminder <msg/2s>
-
-㋛${prefix}listonline
-
-㋛${prefix}sider [reply chat bot]
-
-㋛${prefix}antilink
-
-㋛${prefix}tod 
-
-㋛${prefix}tospam amount
-
-㋛${prefix}autojoin
-
-㋛${prefix}antivirtex
-
-㋛${prefix}kickarea
-
-㋛${prefix}grouplink
-
-㋛${prefix}resetlink
-
-㋛${prefix}group [open/close(button)]
+menu = `𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃           𝑍 𝐵𝑂𝑇 𝑉➅
+┃
+┃${prefix}grup [3 Button]
+┃
+┃${prefix}promote <reply chat member>
+┃
+┃${prefix}demote <reply chat member>
+┃
+┃${prefix}setdesc
+┃
+┃${prefix}nsfw 1/0
+┃
+┃${prefix}setname
+┃
+┃${prefix}kick <reply/tag member>
+┃
+┃${prefix}add <reply/tag member>
+┃
+┃${prefix}getbio <reply chat member>
+┃
+┃${prefix}getname <reply chat member>
+┃
+┃${prefix}reminder <msg/2s>
+┃
+┃${prefix}listonline
+┃
+┃${prefix}sider [reply chat bot]
+┃
+┃${prefix}antilink
+┃
+┃${prefix}tod 
+┃
+┃${prefix}tospam amount
+┃
+┃${prefix}autojoin
+┃
+┃${prefix}antivirtex
+┃
+┃${prefix}kickarea
+┃
+┃${prefix}grouplink
+┃
+┃${prefix}resetlink
+┃
+┃${prefix}group [open/close(button)]
+┃
+┃𒍨ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɪᴍᴀꜱʜ ɴɪᴅᴜꜱʜᴀ
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 `
 sendButMessage(from, menu, `ZBOT`, [
           {
@@ -2140,7 +2158,7 @@ sendButMessage(from, menu, `ZBOT`, [
           },]);
 break
 case 'ownermenu':
-menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
+menu = `𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶
 ㋛${prefix}off
 
 ㋛${prefix}bc
@@ -2197,21 +2215,21 @@ menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}addvn <reply audio with name>
 
-㋛${prefix}delvn <audio name>
+${prefix}delvn <audio name>
  
-㋛${prefix}vnlist
+${prefix}vnlist
  
-㋛${prefix}addsticker <reply sticker with name>
+${prefix}addsticker <reply sticker with name>
  
-㋛${prefix}delsticker <sticker name>
+${prefix}delsticker <sticker name>
  
-㋛${prefix}stickerlist
+${prefix}stickerlist
  
-㋛${prefix}addimage <reply image with name>
+${prefix}addimage <reply image with name>
  
-㋛${prefix}delimage <image name>
+${prefix}delimage <image name>
  
-㋛${prefix}imagelist`
+${prefix}imagelist`
 sendButMessage(from, menu, `ZBOT`, [
           {
             buttonId: `command`,
