@@ -1,4 +1,4 @@
-//ZBOT
+//ZBOTk
 const {
   WAConnection: _WAConnection,
   MessageType,
