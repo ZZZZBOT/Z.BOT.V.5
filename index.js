@@ -128,8 +128,8 @@ antidel = false;
 welcom = false;
 antical = false
 readGc = true; 
-readPc = false;
-autovn = false;
+readPc = true;
+autovn = true;
 multi = true
 harga = 0
 matauang = 'USD'
@@ -1332,7 +1332,7 @@ const serialUser = createSerial(18)
 
 *「 ZBOT 」*`
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
-             buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
+             buttons = [{buttonId: `menu`,buttonText:{displayText: `Z MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
               buttonsMessage = {footerText:'𝑍 𝐵𝑂𝑇 𝑉➅', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
@@ -1348,6 +1348,8 @@ const serialUser = createSerial(18)
       
 case 'help':
 case 'menu':
+case 'imash'
+case 'alive':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1387,7 +1389,7 @@ prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkont
                break
 
         case 'allmenu':
-        case 'Z WHATSAPP USER BOT':
+        case 'Z':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1618,7 +1620,7 @@ ${readmore}
 
 *𝙏𝙃𝙄𝙎 𝙄𝙎 𝑍 𝐵𝑂𝑇 𝑉➅ 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙐𝙎𝙀𝙍 𝘽𝙊𝙏*
 `
-sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
+sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS'},type:1},{buttonId:`script`,buttonText:{displayText:'♥'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 		
 break
 case 'credit':
@@ -3082,7 +3084,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `🦄 @${mem.jid.split('@')[0]}\n`
+						teks += '♥@${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -4546,7 +4548,7 @@ sendButMessage(from, tiyo, `Z BOT`, [
              for (let _ of anu) {
 xeon.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": 'ZBOT',
+			"footerText": 'Z BOT',
 			"buttons": [
 			{"buttonId": `${prefix}allmenu`,
 			"buttonText": {"displayText": "CLICK TO VIEW MENU"
