@@ -123,13 +123,13 @@ const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
  // BATAS \\
 menusimpel = false
 banChats = false;
-offline = false;
+offline = true;
 antidel = false;
 welcom = false;
 antical = false
 readGc = true; 
-readPc = false;
-autovn = false;
+readPc = true;
+autovn = true;
 multi = true
 harga = 0
 matauang = 'USD'
@@ -154,7 +154,7 @@ thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0"; 
 waktu = "-";
 alasan = "-"; 
-autojoin = true;
+autojoin = false;
 cmhit = []
 hit_today = [];
 //=================================================//
