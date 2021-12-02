@@ -1621,7 +1621,47 @@ ${readmore}
 *𝙏𝙃𝙄𝙎 𝙄𝙎 𝑍 𝐵𝑂𝑇 𝑉➅ 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙐𝙎𝙀𝙍 𝘽𝙊𝙏*
 `
 sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS'},type:1},{buttonId:`script`,buttonText:{displayText:'♥'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
-		
+
+case 'allmenu':
+case 'alive':
+groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
+
+              privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+           
+
+              uptime = process.uptime();
+              timestampe = speed();
+              totalChat = await xeon.chats.all()
+              latensie = speed() - timestampe
+              total = math(`${groups.length}*${privat.length}`)
+if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+        ptod = "94771323434@s.whatsapp.net"
+        dtod = '94771323434'
+        stod = `${sender}`
+        uwuu = '```'
+        yoii = '*'
+       stst = await xeon.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status       menu = `
+
+       HELLO I AM Z WHATSAPP BOT🙊.
+
+       
+
+*CREATOR IS IMASH NIDUSHA*
+        
+
+╔══╗░░░░╔╦╗░░╔═════╗
+║╚═╬════╬╣╠═╗║░▀░▀░║
+╠═╗║╔╗╔╗║║║╩╣║╚═══╝║
+╚══╩╝╚╝╚╩╩╩═╝╚═════╝
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+████▌▄▌▄▐▐▌█████
+████▌▄▌▄▐▐▌▀████
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+
+`
 break
 case 'credit':
    dtod = '94771323434'
