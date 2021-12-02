@@ -1058,7 +1058,7 @@ sendEphemeral: false,
                         remoteJid: "status@broadcast",
                         quotedMessage: {
                           imageMessage: {
-                            caption: "*OFFLINE*",
+                            caption: "*I AM OFFLINE*",
                             jpegThumbnail: fs.readFileSync("./stik/thumb.jpeg"),
                           },
                         },
